@@ -1,0 +1,71 @@
+.object-comments form { padding: 3px 12px; }
+.object-comments form label { padding: 0 0 8px 0; margin: 0; display: block; font-family: 'Oswald', Arial, Helvetica, sans-serif; font-size: 14px; color: #3a3a3a; text-transform: uppercase; line-height: 16px; }
+.object-comments form input[type=text] { 
+    width: 93%; 
+    height: 50px;
+    padding: 10px; 
+    background-color: #fff; 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bfbfbf));
+    background-image: -webkit-linear-gradient(top, #fff, #bfbfbf);
+    background-image:    -moz-linear-gradient(top, #fff, #bfbfbf);
+    background-image:     -ms-linear-gradient(top, #fff, #bfbfbf);
+    background-image:      -o-linear-gradient(top, #fff, #bfbfbf); 
+    border-top: 1px solid #9f9f9f;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid #e1e1e1;
+    -webkit-border-radius: 3px; 
+    border-radius: 3px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px;
+    font-weight: bold;
+    color: #000; }
+.object-comments form p.submit input {
+    width: 100%;
+    background: #c1202a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ca232e 0%, #b71e28 50%, #a31921 51%, #8b151c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ca232e), color-stop(50%,#b71e28), color-stop(51%,#a31921), color-stop(100%,#8b151c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ca232e 0%,#b71e28 50%,#a31921 51%,#8b151c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ca232e 0%,#b71e28 50%,#a31921 51%,#8b151c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ca232e 0%,#b71e28 50%,#a31921 51%,#8b151c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ca232e 0%,#b71e28 50%,#a31921 51%,#8b151c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca232e', endColorstr='#a31921',GradientType=0 ); /* IE6-9 */
+    margin: 0; 
+    padding: 5px 0;
+    -webkit-border-radius: 3px; border-radius: 3px; 
+    border: 0;
+    border-top: 1px solid #ee3a4d;
+    border-bottom: 1px solid #000;
+    clear: both; 
+    color: #fff;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+.foundry-comments-messages-navbar { display: none; }
+.foundry-comments-messages-navbar a { color: #fff; }
+.foundry-comments-messages-navbar div.item { display: inline; padding: 0 2px; }
+.foundry-comments-messages-navbar div.active { background-color: #fff; }
+.foundry-comments-messages-navbar div.active a { color: #323232; }
+
+.foundry-comments-pages-navbar { display: none; }
+.foundry-comments-pages-navbar a { color: #fff; }
+.foundry-comments-pages-navbar div.item { display: inline; padding: 0 2px; }
+.foundry-comments-pages-navbar div.active { background-color: #fff; }
+.foundry-comments-pages-navbar div.active a { color: #323232; }
+
+.foundry-comments-list {  }
+.foundry-comments-list > .items > .item { min-height: 50px; padding: 12px; border-top: 1px solid #c0c0c0; }
+.foundry-comments-list > .items > .item:last-child { border-bottom: 0; }
+.foundry-comments-list > .items > .item .meta { display: none; }
+.foundry-comments-list > .items > .item > .image { display: inline; float: left; margin: 0 12px 5px 0 }
+.foundry-comments-list > .items > .item > .comment { display: inline; clear: left; line-height: 17px; }
+.foundry-comments-list > .items > .item > .comment > .creator { padding: 0 0 8px 0; display: block; font-size: 14px; font-family: 'Oswald', Arial, Helvetica, sans-serif; color: #3a3a3a; text-transform: uppercase; }
+.foundry-comments-list > .items > .item .actions { padding: 8px 0 0 0; margin: 0 0 0 60px; }
+.foundry-comments-list > .items > .item .actions > div { display: inline-block; }
+.foundry-comments-list > .items > .item .actions > div a { padding: 0 0 0 20px; display: block; font-size: 11px; }
+.foundry-comments-list > .items > .item .actions > div.reply a { background: url('../images/icon_reply.png') no-repeat; background-size: 14px 10px; }
+.foundry-comments-list > .items > .item .actions > div.report a { margin: 0 0 0 15px; background: url('../images/icon_report.png') no-repeat; background-size: 15px 12px; }
+

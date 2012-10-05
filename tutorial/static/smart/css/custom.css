@@ -1,0 +1,34 @@
+custom.css
+
+.item-event > .links {
+    right: 0px;
+}
+.item-event > .links a {
+    position: absolute;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    right: 0px;
+/*    white-space: nowrap;
+    text-indent: -3000px;*/
+}
+
+.item-event > .links > .bookmark-link {
+    bottom: 0px;
+}
+
+.item-event > .links > .location-link {
+    top: 0px;
+}
+
+a.touch-active {
+    text-decoration: underline;
+}
+
+#header .menu .touch-active.handle {
+    background: rgba(0,0,0,0.5);
+}
+
+/* Hedley sharing styling */
+div.sharing { display: inline-block; }
+div.sharing div img { display: inline; }
