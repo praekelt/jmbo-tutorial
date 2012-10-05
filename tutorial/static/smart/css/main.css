@@ -212,12 +212,12 @@ a {
 .foundry-listing-promo .pinned-items .item .inner .title { padding: 6px 10px 10px 10px; font-family: 'Oswald', Arial, Helvetica, sans-serif; font-size: 20px; color: #fff; text-transform: uppercase; line-height: 26px; text-shadow: 0px 0px 6px #000000; filter: dropshadow(color=#000000, offx=0, offy=0); }
 
 /* Item - Promo - Square */
-.foundry-listing-promo .items .item { width: 49%; float: left; margin: 2% 0 0 0; display: inline-block; position: relative; }
-.foundry-listing-promo .items .item:nth-child(2n) { width: 49%; float: right; display: inline-block; }
-.foundry-listing-promo .items .item img { width: 100%; display: block; }
-.foundry-listing-promo .items .item > a > .title { padding: 7px 9px; background: #000; position: absolute; bottom: 0; opacity: 0.9; font-family: 'Oswald', Arial, Helvetica, sans-serif; font-size: 16px; color: #fff; text-transform: uppercase; line-height: 18px; text-shadow: 0px 0px 6px #000000; filter: dropshadow(color=#000000, offx=0, offy=0); }
-.foundry-listing-promo .items .item .content-type { width: 43px; height: 48px; position: absolute; top: 0; right: 3px; overflow: hidden; }
-.foundry-listing-promo .items .item .content-type img { width: 43px!important; float: none!important; display: block!important; margin: -138px 0 0 0; }
+.xfoundry-listing-promo .items .item { width: 49%; float: left; margin: 2% 0 0 0; display: inline-block; position: relative; }
+.xfoundry-listing-promo .items .item:nth-child(2n) { width: 49%; float: right; display: inline-block; }
+.xfoundry-listing-promo .items .item img { width: 100%; display: block; }
+.xfoundry-listing-promo .items .item > a > .title { padding: 7px 9px; background: #000; position: absolute; bottom: 0; opacity: 0.9; font-family: 'Oswald', Arial, Helvetica, sans-serif; font-size: 16px; color: #fff; text-transform: uppercase; line-height: 18px; text-shadow: 0px 0px 6px #000000; filter: dropshadow(color=#000000, offx=0, offy=0); }
+.xfoundry-listing-promo .items .item .content-type { width: 43px; height: 48px; position: absolute; top: 0; right: 3px; overflow: hidden; }
+.xfoundry-listing-promo .items .item .content-type img { width: 43px!important; float: none!important; display: block!important; margin: -138px 0 0 0; }
 
 /* Item - Promo - General */
 .foundry-listing-promo .item { width: 100%; position: relative; }
